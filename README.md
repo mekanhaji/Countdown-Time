@@ -36,8 +36,8 @@ The project structure is as follows:
 └── README.md
 ```
 
-- The `css` directory contains the `styles.css` file, which contains the CSS styles for the web app's interface.
-- The `js` directory contains the `script.js` file, which contains the JavaScript code responsible for the countdown logic and real-time display updates.
+- The `src` directory contains the `styles.css` file, which contains the CSS styles for the web app's interface.
+- The `src` directory also contains the `index.js` file, which contains the JavaScript code responsible for the countdown logic and real-time display updates.
 - The `index.html` file is the main HTML file that displays the web app interface.
 - The `README.md` file provides information about the project.
 
@@ -46,7 +46,7 @@ The project structure is as follows:
 You can customize the Countdown Time web app according to your preferences:
 
 - Modify the CSS styles in the `styles.css` file to change the visual appearance of the interface.
-- Update the JavaScript code in the `script.js` file to add additional functionality or customize the countdown logic.
+- Update the JavaScript code in the `index.js` file to add additional functionality or customize the countdown logic.
 
 ## Contributions
 
