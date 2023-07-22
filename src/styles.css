@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     gap: 10px;
 }
+
 .container__title {
     padding: 10px 20px;
     font-size: 40px;
@@ -79,4 +80,19 @@ input[type="number"] {
 }
 .reset {
     background: orangered;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        flex-direction: row;
+        font-size: small;
+    }
+
+    .container {
+        width: 380px;
+    }
+
+    .container__labels--label {
+        font-size: 20px;
+    }
 }
